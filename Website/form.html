@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/448b59ee01.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <script>
+      function abc(){
+        alert("account created");
+
+      }
+
+        
+    </script>
+
+    <style>
+        #form
+        {
+         background-image:linear-gradient( to bottom , hsla(43, 27%, 13%, 0.718),rgb(189, 138, 138) ,gray);
+            height: 800px;
+            width: 100%;
+
+        }
+
+        
+
+        input
+        {
+            width: 300px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            
+        }
+
+           
+        #navbar1
+        {
+            background-color: rgb(43, 7, 7);
+            
+            
+        }
+     
+       
+        
+        .site-footer
+{
+  background-color: rgb(43, 7, 7);
+  padding:45px 0 20px;
+  font-size:15px;
+  
+  color:WHITE;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+
+.footer-links a
+{
+  color:white;
+}
+
+
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+
+ 
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer ,.site-footer .social-icons
+  {
+    text-align:center
+  }
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+
+.copyright-text
+{
+  text-align: left;
+}
+
+.hello {
+  width: 35px;
+  height: 5px;
+  background-color:rgb(43, 7, 7);
+  margin: 6px 0;
+}
+input.ng-valid{
+            border: 1px solid rgb(116, 197, 127);
+        }
+        input.ng-invalid{
+            border: 1px solid rgba(255, 47, 47, 0.932);
+        }
+      
+        span{
+          color: rgba(255, 47, 47, 0.932);;
+        }
+
+    </style>
+</head>
+<body ng-app="">
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg" id="navbar1">
+    <img src="download 1.png" height="40px" width="40px" class="rounded-circle">
+    <a class="navbar-brand" href="home of eproject.html" style=" color: white; font-style: italic;">The Cake</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"style="background-color:white;">
+      <div class="hello"></div>
+      <div class="hello"></div>
+      <div class="hello"></div>
+     
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown"  style=" color: white;" >
+      <ul class="navbar-nav" style=" color: white;" >
+        <li class="nav-item active">
+          <a class="nav-link" href="home of eproject.html" style=" color: white; padding-left: 30px;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about us .html" style=" color: white; padding-left: 30px;">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="All Product.html" style=" color: white; padding-left: 30px;">Products</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style=" color: white; padding-left: 30px;">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="birthday.html" style=" color: rgb(43, 7, 7)">Birthday</a>
+            <a class="dropdown-item" href="Engagement.html" style=" color:rgb(43, 7, 7)">Engagment</a>
+            <a class="dropdown-item" href="Anniversary.html" style=" color:rgb(43, 7, 7)">Anniversary</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact us.html" style=" color: white; padding-left: 30px;">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="site.html" style=" color: white; padding-left: 30px;">Site Map</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="create account.html" style=" color: white; padding-left: 30px;">Create Account  <i class="fas fa-user-circle" style="font-size: 20px;"></i></a>
+          </li>
+          
+            
+        
+      </ul>
+    </div>
+  </nav>
+
+    <!-- form -->
+
+
+ <div id="form" style="text-align: center;">
+
+  <h2 style="padding-top: 50px; color: white;">Order Now</h2><br>
+  <h6 style=" color: white;">Please fill it to order now to get fresh cakes easily</h6><br><br><br>
+<form name="myform">
+  <i class="fas fa-user-tie" style="font-size: 30px; color:rgb(43, 7, 7);"></i>
+  <input type="text" placeholder="Enter Your Name"  name="ename" ng-model="ename" required><br>
+  
+  <span ng-show="myform.ename.$error.required">name is required.</span>
+  <br>
+
+  <i class="fas fa-at" style="font-size: 30px; color:rgb(43, 7, 7);"></i>
+  
+  <input type="email" placeholder="Enter Your Email"  name="email" ng-model="email" required><br>
+
+  <span ng-show="myform.email.$error.required" >Email is required.</span>
+  <span ng-show="myform.email.$error.email" >Invalid email address.</span><br>
+  
+  <br>
+  <i class="fas fa-mobile-alt" style="font-size: 30px; color: rgb(43, 7, 7);"></i>
+  <input type="number" placeholder="number" name="num" ng-model="num"  required><br>
+  <span ng-show="myform.num.$error.required" >please enter number</span>
+  <br>
+  <i class="fab fa-product-hunt"  style="font-size: 30px; color: rgb(43, 7, 7);"></i>
+  <input type="text" placeholder="#itemcode" name="cod" ng-model="cod"  required><br>
+  <span ng-show="myform.cod.$error.required" >please enter #itemcode</span>
+  <br> 
+  <i class="fas fa-birthday-cake" style="font-size: 30px; color: rgb(43, 7, 7);"></i>
+  <input type="text" placeholder="Quntity" name="qun" ng-model="qun"  required><br>
+  <span ng-show="myform.qun.$error.required" >please enter Quntity</span>
+  <br>
+  <i class="fas fa-map-marked-alt"  style="font-size: 30px; color: rgb(43, 7, 7);"></i>
+  <input type="text" placeholder="your Address" name="add" ng-model="add"  required><br>
+  <span ng-show="myform.add.$error.required" >please enter your Address</span>
+  <br>
+  <i class="fas fa-calendar-alt" style="font-size: 30px; color: rgb(43, 7, 7);"></i>
+  <input type="text" placeholder="delivery date" name="dt" ng-model="dt"  required><br>
+  <span ng-show="myform.dt.$error.required" >plase enter your date</span>
+  <br>
+  
+
+  <input type="submit" ng-disabled="myform.email.$invalid || myform.ename.$invalid || myform.password.$invalid || myform.cpassword.$invalid" onclick="abc()" style="width: 300px; background-color:rgb(43, 7, 7); color: white;  padding-top: 5px;
+  padding-bottom: 5px; margin-left: 30px; " onclick="abs()">
+
+</form>
+
+</div>
+           <!-- footer -->
+                <!-- Site footer -->
+                <footer class="site-footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6" style="text-align: center;">
+                        <h6>About us</h6>
+                        <p class="text-justify">The Cake is a European concept bakery founded in 2014 to bring the authentic taste of European home baking to Karachi. Our cakes, cupcakes and brownies owe their unique look and exceptional flavor to top quality raw ingredients, our baking expertise, and a passionate team of people who love to live their lives by the oven.</p>
+                      </div>
+            
+                      <div class="col-xs-6 col-md-3" style="text-align: center;">
+                        <h6>Categories</h6>
+                        <ul class="footer-links">
+                          <li><a href="birthday.html">Birthday</a></li>
+                          <li><a href="Engagement.html">Engagment</a></li>
+                          <li><a href="Anniversary.html">anneversary</a></li>
+                          
+                         
+                        </ul>
+                      </div>
+            
+                      <div class="col-xs-6 col-md-3" style="text-align: center;">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links">
+                          <li><a href="about us.html">About Us</a></li>
+                          <li><a href="contact us.html">Contact Us</a></li>
+                        
+                          <li><a href="site.html">Sitemap</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <hr>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+                     THE CAKE.
+                        </p>
+                      </div>
+            
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                          <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100011443063582" target="blank"><i class="fa fa-facebook"></i></a></li>
+                          <li><a class="twitter" href="https://twitter.com/abuhura57384970" target="blank"><i class="fa fa-twitter"></i></a></li>
+                          <li><a class="dribbble" href="https://www.youtube.com/channel/UCljHcR0EzW3lAQq-RqJ2B7w" target="blank"><i class="fa fa-instagram"></i></a></li>
+                          <li><a class="linkedin" href="https://pk.linkedin.com/" target="blank"><i class="fa fa-linkedin"></i></a></li>   
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </footer>
+            <script>
+            function abc(){
+              alert("thnk you for purchasing");
+            }
+            </script>
+    
+</body>
+</html>

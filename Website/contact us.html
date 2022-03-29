@@ -1,0 +1,552 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/448b59ee01.js" crossorigin="anonymous"></script>
+  <title>Contact Us</title>
+    <style>
+     #navbar1
+        {
+            background-color: rgb(43, 7, 7);
+            
+            
+        }
+     
+       
+        
+        .site-footer
+{
+  background-color: rgb(43, 7, 7);
+  padding:45px 0 20px;
+  font-size:15px;
+  
+  color:WHITE;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+
+.footer-links a
+{
+  color:white;
+}
+
+
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+
+ 
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer ,.site-footer .social-icons
+  {
+    text-align:center
+  }
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+
+.copyright-text
+{
+  text-align: left;
+}
+
+.hello {
+  width: 35px;
+  height: 5px;
+  background-color:rgb(43, 7, 7);
+  margin: 6px 0;
+}
+        body{
+ padding: 0;
+ margin: 0;
+ line-height: 1.5;
+ box-sizing: border-box;
+ color:rgba(248, 248, 248, 0.938);
+ background: linear-gradient(rgba(68, 37, 2, 0.568),rgba(46, 25, 1, 0.514)),url("12.jpg");
+ background-repeat: no-repeat;
+  background-position: center center;
+ background-attachment: fixed;
+}
+#fancy-form{
+ background-size: cover;
+ background-position: center;
+ height: 107vh;
+}
+#fancy-form .container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.Form-left{
+  margin-left: 30px;
+}
+.Form-right{
+  margin-left: 30px;
+}
+
+.form-sections{
+  margin-top: 4rem;
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Form-left h1{
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  margin-left: -233px;
+}
+.Form-left h4{
+  padding: 4px;
+  margin: 0;
+  color: rgb(243, 235, 235);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.line{
+  border-bottom: 2px solid rgb(12, 168, 207);
+  width: 10%;
+}
+p{
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.Form-left span{
+  color: rgb(187, 182, 182);
+  font-weight: bold;
+}
+
+.Form-left hr{
+  width: 28rem;
+  margin-left: 0;
+  border: 1px solid rgba(2, 2, 2, 0.904);
+}
+.fa {
+  padding: 8px;
+  font-size: 19px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(187, 182, 182);
+  
+}
+.fa:hover{
+  color: rgb(16, 135, 190);;
+}
+.Form-right h1{
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  margin-left: -309px;
+}
+
+form{
+  padding-top: 2rem;
+}
+
+form h5{
+  padding: 0;
+  margin: 0;
+  color: rgb(228, 218, 218);
+}
+form input{
+  padding:0.6rem;
+  width: 381px;
+  border: none;
+  background-color:rgba(56, 55, 55, 0.541);
+  color:white;
+  border: none;
+  outline:none;
+  -webkit-text-fill-color: whitesmoke;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(56, 55, 55, 0.541) inset;
+  
+}
+input:-webkit-autofill {
+    -webkit-text-fill-color: white !important;
+    -webkit-animation-delay: 1s; /* Safari support - any positive time runs instantly */
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+form textarea{
+  padding:0.6rem;
+  width: 381px;
+  border: none;
+  background-color:rgba(56, 55, 55, 0.541);
+  color:white;
+  border: none;
+  outline:none;
+ }
+ #country{
+    padding:0.6rem;
+  width: 382px;
+  border: none;
+  background-color:rgba(56, 55, 55, 0.541);
+  color:white;
+  border: none;
+  outline:none;
+ }
+
+ form button{
+    width: 9rem;
+    background-image: linear-gradient(to top, rgb(4, 131, 163),rgb(54, 179, 211),rgb(100, 217, 247));
+    padding: 5px;
+    outline: none;
+    border-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 0.9rem;
+    border-radius: 50px;
+    cursor: pointer;
+ }
+ form button:hover{
+  background-image: linear-gradient(to top,rgb(100, 217, 247) ,rgb(54, 179, 211),rgb(4, 131, 163));
+ }
+   @media (max-width: 968px){
+
+     #fancy-form .form-sections{
+       display: block;
+       width: 100%;
+       text-align: left;
+          }
+      #fancy-form{
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url(../imgs/particles.jpg);
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        width: 100%;
+         }
+
+      .form-sections .Form-right{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+         }
+        .fa{
+         padding: 8px;
+         font-size: 18px;
+         width: 30px;
+         text-align: center;
+         text-decoration: none;
+         color: rgb(187, 182, 182);
+             }
+          }
+       #color{
+         color: #fff;
+       }  
+       option {
+    background-color: rgba(56, 55, 55, 0.808) !important;
+} 
+input.ng-valid{
+            border: 1px solid rgb(116, 197, 127);
+        }
+        input.ng-invalid{
+            border: 1px solid rgba(255, 47, 47, 0.932);
+        }
+      
+        span{
+          color: rgba(255, 47, 47, 0.932);;
+        }
+        h1{
+     text-align: center;
+     color: rgba(235, 227, 227, 0.877);
+     font-style: oblique;
+     font-family: monospace;
+   }
+   #geo{
+     margin-top: 200px;
+     margin-bottom: 80px;
+   }
+   #dd{
+     margin-bottom: 30px;
+   }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg" id="navbar1">
+      <img src="download 1.png" height="40px" width="40px" class="rounded-circle">
+      <a class="navbar-brand" href="home of eproject.html" style=" color: white; font-style: italic;"><b>The Cake</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"style="background-color:white;">
+        <div class="hello"></div>
+        <div class="hello"></div>
+        <div class="hello"></div>
+       
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown"  style=" color: white;" >
+        <ul class="navbar-nav" style=" color: white;" >
+          <li class="nav-item active">
+            <a class="nav-link" href="home of eproject.html" style=" color: white; padding-left: 30px;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about us .html" style=" color: white; padding-left: 30px;">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="All Product.html" style=" color: white; padding-left: 30px;">Products</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style=" color: white; padding-left: 30px;">
+              Events
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="birthday.html" style=" color: rgb(43, 7, 7)">Birthday</a>
+              <a class="dropdown-item" href="Engagement.html" style=" color:rgb(43, 7, 7)">Engagment</a>
+              <a class="dropdown-item" href="Anniversary.html" style=" color:rgb(43, 7, 7)">Anniversary</a>
+            </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact us.html" style=" color: white; padding-left: 30px;">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="site.html" style=" color: white; padding-left: 30px;">Site Map</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="create account.html" style=" color: white; padding-left: 30px;">Create Account  <i class="fas fa-user-circle" style="font-size: 20px;"></i></a>
+            </li>
+            
+              
+          
+        </ul>
+      </div>
+    </nav>
+  
+  <section id="fancy-form">
+   <div class="container">
+    <div class="form-sections">
+
+      <div class="Form-left">
+        <h1>Get In Touch</h1>
+        <div class="line"></div> 
+        <p><i>Contact us for latest news and updates. </i> </p><br>
+
+        <h4> ADDRESS</h4>
+        <span ><a href="https://www.google.com/maps/place/25%C2%B001'40.5%22N+67%C2%B004'21.7%22E/@25.0274452,67.0623265,15z/data=!4m6!3m5!1s0x3eb3415daf01810f:0xb123598586563142!7e2!8m2!3d25.0279159!4d67.0726973" target="blank" id="color">House no N-201 Sec 7-c Surjani town, Karachi</a> </span>
+         
+         <hr><br><br>
+
+        <h4>PHONE</h4>
+         <span>(+92) 317 8568846</span>
+         <hr><br><br>
+
+        <h4>EMAIL</h4>
+         <span  ><a href="mailto:webmaster@example.com" target="blank" id="color">abuhurairahkhan.97@gmail.com</a> </span>
+         <hr> <br>
+        
+          <a href="https://www.facebook.com/profile.php?id=100011443063582" target="blank"  class="fa fa-facebook"></a>
+          <a href="https://twitter.com/abuhura57384970" target="blank"  class="fa fa-twitter"></a>
+          <a href="https://www.instagram.com/decentkhan.96/" target="blank"  class="fa fa-instagram"></a>
+          <a href="https://pk.linkedin.com/" target="blank"  class="fa fa-linkedin"></a>
+          <a href="https://www.youtube.com/channel/UCljHcR0EzW3lAQq-RqJ2B7w" target="blank"  class="fa fa-youtube"></a>
+        
+        </div>
+      <div class="Form-right">
+        <h1>Feedback </h1>
+        <div class="line" ></div>
+        <div ng-app="">
+        <form action="" name="myf">
+          <h5>NAME</h5>
+          <input type="text" placeholder="enter your name.."  name="um" ng-model="um" required><br><br>
+          <span ng-show="myf.um.$error.required">field empty</span><br>
+
+          <h5>EMAIL</h5>
+          <input type="email" placeholder="enter your email.."  name="em" ng-model="em" required><br><br>
+          <span ng-show="myf.em.$error.required">field empty</span>
+          <span ng-show="myf.em.$error.email">invalid</span><br>
+
+          <label for="CITY"><h5>CITY</h5></label><br>
+    <select id="country" name="country" placeholder="..">
+      <option value="Karachi">Karachi</option>
+      <option value="Lahore">Lahore</option>
+      <option value="Islamabad">Islamabad</option> 
+      <option value="Peshawar">Peshawar</option>
+      <option value="Quetta">Quetta</option>
+      <option value="Faisalabad">Faisalabad</option>
+      <option value="Hyderabad">Hyderabad</option>
+      <option value="Kohat">Kohat</option>
+    </select><br><br>
+          <!--<h5>PHONE</h5>
+          <input type="number" placeholder="enter your number.."><br><br>-->
+          <h5>YOUR MESSAGE</h5>
+          <textarea name="" id="" cols="50" rows="7" placeholder="type a message.." aria-required="true" ></textarea><br>
+          <span ng-show="myf.mm.$error.required">field empty</span><br>
+          <button onclick="abc()" ng-disabled="myf.um.$invalid || myf.em.$invalid ">Send</button>
+        </form>
+      </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <div id="geo">
+  <h1 id="dd">
+    Address in Geolocation
+  </h1>
+  <p id="pp">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4299.201327401835!2d67.07044720116822!3d25.027863476376528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3415daf01810f%3A0xb123598586563142!2zMjXCsDAxJzQwLjUiTiA2N8KwMDQnMjEuNyJF!5e0!3m2!1sen!2s!4v1613979534848!5m2!1sen!2s"  width="100%" height="570" frameborder="0" style="border: 2px solid;;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </p></div>
+
+       <!-- Site footer -->
+       <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6" style="text-align: center;">
+              <h6>About us</h6>
+              <p class="text-justify">The Cake is a European concept bakery founded in 2014 to bring the authentic taste of European home baking to Karachi. Our cakes, cupcakes and brownies owe their unique look and exceptional flavor to top quality raw ingredients, our baking expertise, and a passionate team of people who love to live their lives by the oven.</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3" style="text-align: center;">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="birthday.html">Birthday</a></li>
+                <li><a href="Engagement.html">Engagment</a></li>
+                <li><a href="Anniversary.html">Anniversary</a></li>
+                
+               
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3" style="text-align: center;">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+              
+                <li><a href="site.html">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+           THE CAKE.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100011443063582" target="blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="https://twitter.com/abuhura57384970" target="blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="https://www.youtube.com/channel/UCljHcR0EzW3lAQq-RqJ2B7w" target="blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a class="linkedin" href="https://pk.linkedin.com/" target="blank"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+</body>
+<script>
+  function abc(){
+    window.open("send.html")
+  }
+</script>
+</html>
